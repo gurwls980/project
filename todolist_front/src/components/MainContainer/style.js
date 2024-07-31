@@ -98,11 +98,13 @@ export const container = css`
     h2{
         margin-left: 30px ;
     }
-    table th:nth-child(2){
+
+
+    table th:nth-of-type(2){
         width: 290px;
     }
 
-    table th:nth-child(3){
+    table th:nth-of-type(3){
         width: 70px;
     }
     .sc-box {
@@ -126,5 +128,13 @@ export const container = css`
         &:active{
             background-color: #dbdbdb;
         }
+    }
+
+    .register-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        
     }
 `;
